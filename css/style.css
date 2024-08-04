@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 p {
   margin-bottom: 0.8rem;
 }
@@ -19,4 +23,57 @@ h4 {
 a {
   color: #333;
   text-decoration: none;
+}
+
+/* nav */
+
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem 2rem;
+  background-color: #333;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+header a {
+  color: white;
+}
+
+header ul {
+  display: flex;
+  flex-flow: nowrap row;
+  list-style: none;
+}
+
+header ul li {
+  padding: 1rem;
+}
+
+header ul li a:hover {
+  color: #f9ca24;
+}
+
+.vp-logo {
+  margin-bottom: 0px;
+  font-family: "Long Cang", cursive;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.vp-logo i {
+  color: #f9ca24;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.vp {
+  flex: auto;
 }
