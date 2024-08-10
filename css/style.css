@@ -170,3 +170,39 @@ strong {
   width: 50px;
   background: #333;
 }
+
+/* section equipes */
+.equipes {
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.equipes-content-img img {
+  width: 100%;
+}
+
+.equipes-content-img {
+  flex: 1;
+}
+
+.equipes-content-text {
+  flex: 1;
+  background: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+
+}
+
+.equipes-content-text p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.equipes-content-text h2 {
+  margin-bottom: 2rem;
+
+}
