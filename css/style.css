@@ -206,3 +206,35 @@ strong {
   margin-bottom: 2rem;
 
 }
+
+/* section teamoins */
+.teamoins {
+  padding: 5rem 1rem;
+}
+
+.teamoins-content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.teamoins-elem {
+  flex: 1;
+  background: white;
+  border-radius: 4px;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+
+}
+
+.teamoins-elem-text {
+  padding: 0 2rem;
+}
+
+.teamoins-elem-profil img {
+  width: 60px;
+  border-radius: 30px;
+}
