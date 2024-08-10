@@ -7,6 +7,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background: #eee;
+  color: #333;
 }
 
 p {
@@ -119,4 +121,52 @@ header ul li a:hover {
 strong {
   color: #f9ca24;
   font-weight: 300;
+}
+
+/* offres */
+
+.offres {
+  padding: 10rem 1rem;
+}
+
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.offres-listes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+.offre-elem {
+  border: 1px solid gray;
+  background: white;
+  margin: 1rem;
+  flex: 1;
+}
+
+.offre-elem-img {
+  width: 100%;
+}
+
+.offre-elem-text {
+  padding: 2rem;
+  text-align: center;
+}
+
+.separator {
+  margin: 10px auto;
+  height: 3px;
+  width: 50px;
+  background: #333;
 }
